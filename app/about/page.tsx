@@ -37,10 +37,10 @@ const AboutPage: React.FC = () => {
             className="rounded-full mb-4"
           />
           <p className="text-center mb-4">
-            Hello! I'm [Your Name], a software developer with a passion for
+            Hello! I&apos;m Thomas, a software developer with a passion for
             creating web applications. I have experience in various technologies
-            including JavaScript, React, and Node.js. I'm always looking for new
-            challenges and opportunities to grow.
+            including JavaScript, React, and Node.js. I&apos;m always looking
+            for new challenges and opportunities to grow.
           </p>
           <div className="flex space-x-4">
             <Link
