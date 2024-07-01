@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const Header: React.FC = () => {
   return (
@@ -9,7 +9,7 @@ const Header: React.FC = () => {
         <ul className="flex justify-center space-x-4">
           <li>
             <Link
-              to="/about"
+              href="/about"
               className="text-gray-800 hover:text-blue-500 transition-colors duration-300"
             >
               About
@@ -17,7 +17,7 @@ const Header: React.FC = () => {
           </li>
           <li>
             <Link
-              to="/cv"
+              href="/cv"
               className="text-gray-800 hover:text-blue-500 transition-colors duration-300"
             >
               CV
@@ -25,7 +25,7 @@ const Header: React.FC = () => {
           </li>
           <li>
             <Link
-              to="/technologies"
+              href="/technologies"
               className="text-gray-800 hover:text-blue-500 transition-colors duration-300"
             >
               Technologies
