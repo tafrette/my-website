@@ -1,5 +1,4 @@
 "use client";
-
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
@@ -15,6 +14,7 @@ const PasswordPage: React.FC = () => {
     event.preventDefault();
 
     if (password === "bergen555") {
+      localStorage.setItem("authenticated", "true");
       router.push("/about");
     } else {
       alert("Incorrect password. Please try again.");
