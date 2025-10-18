@@ -1,0 +1,19 @@
+# MongoDB Configuration
+# Copy this file to .env.local and add your MongoDB URI
+
+MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/portfolio?retryWrites=true&w=majority
+
+# Example for local MongoDB:
+# MONGODB_URI=mongodb://localhost:27017/portfolio
+
+# Example for MongoDB Atlas (recommended):
+# MONGODB_URI=mongodb+srv://yourusername:yourpassword@cluster0.xxxxx.mongodb.net/portfolio?retryWrites=true&w=majority
+
+# How to get MongoDB URI:
+# 1. Go to https://cloud.mongodb.com/
+# 2. Create a free account
+# 3. Create a new cluster (free tier available)
+# 4. Go to Database Access and create a user
+# 5. Go to Network Access and allow all IPs (or add your specific IP)
+# 6. Click "Connect" and choose "Connect your application"
+# 7. Copy the connection string and replace <password> with your user password
