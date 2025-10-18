@@ -24,7 +24,6 @@ body {
   line-height: 1.6;
 }
 
-/* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -42,12 +41,11 @@ body {
   background: #555;
 }
 
-/* Smooth animations */
+
 .transition-all {
   transition: all 0.3s ease-in-out;
 }
 
-/* Focus styles for accessibility */
 button:focus,
 input:focus,
 textarea:focus,
@@ -56,12 +54,12 @@ a:focus {
   outline-offset: 2px;
 }
 
-/* Custom gradient backgrounds */
+
 .gradient-bg {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
-/* Animation keyframes */
+
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -95,7 +93,6 @@ a:focus {
   }
 }
 
-/* Utility classes */
 .animate-fadeInUp {
   animation: fadeInUp 0.6s ease-out;
 }
@@ -108,7 +105,6 @@ a:focus {
   animation: fadeInRight 0.6s ease-out;
 }
 
-/* Hover effects */
 .hover-lift {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -118,13 +114,11 @@ a:focus {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
-/* Loading states */
 .loading {
   opacity: 0.7;
   pointer-events: none;
 }
 
-/* Custom button styles */
 .btn-primary {
   background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
   color: white;

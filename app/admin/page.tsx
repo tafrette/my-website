@@ -17,7 +17,6 @@ const AdminPage = () => {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    // Check if user is already logged in
     const loggedIn = sessionStorage.getItem("adminLoggedIn") === "true";
     setIsLoggedIn(loggedIn);
     
@@ -74,7 +73,6 @@ const AdminPage = () => {
     return new Date(timestamp).toLocaleString();
   };
 
-  // Show login screen if not authenticated
   if (!isLoggedIn) {
     return <AdminLogin onLogin={handleLogin} />;
   }
@@ -92,7 +90,6 @@ const AdminPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header */}
       <div className="bg-white shadow-sm border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
